@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "OOP-XASH-AUFAR-1202210064_f8cb9942"
+        },
+        {
+            "type": "java",
             "name": "Launch Server",
             "request": "launch",
             "mainClass": "MODUL1.Server",
