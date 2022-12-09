@@ -6,10 +6,12 @@ public class Kapal extends TransportasiAir {
         this.mesin = mesin;
     }
 
+    @Override
     public void informasi(){
         System.out.println("Transportasi Air Jenis Kapal dengan kursi berjumlah " + jumlahKursi + " ditetapkan dengan biaya sebesar Rp. " + biaya);
     }
 
+    @Override
     public void beralayar(){
         System.out.println("Transportasi Air Jenis Kapal sedang berlayar menggunakan mesin " + mesin+ " dengan kecepatan yang tidak stabil");
     }
@@ -18,6 +20,7 @@ public class Kapal extends TransportasiAir {
         System.out.println("Transportasi Air Jenis Kapal sedang berlayar menggunakan mesin " + mesin+ " dengan kecepatan stabil di kisaran " + kecepatan +" knot");
     }
 
+    @Override
     public void beralabuh(){
         System.out.println("Transportasi Air Jenis Kapal berlabuh di pantai");
     }

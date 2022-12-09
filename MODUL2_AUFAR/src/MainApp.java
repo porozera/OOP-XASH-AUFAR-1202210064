@@ -5,6 +5,7 @@ public class MainApp {
     transportasiAir1.beralayar();
     transportasiAir1.beralabuh();
 
+    
     System.out.println("");
     Sampan sampan1 = new Sampan(20, 50000, 2);
     sampan1.informasi();
