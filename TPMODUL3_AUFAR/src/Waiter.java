@@ -31,7 +31,7 @@ public class Waiter implements Runnable{
     public void makeFood(){
         synchronized(Restaurant.getLock()) {
 
-            System.out.println("Waiter: Coffee is ready to deliver");
+            System.out.println("Waiter: Food is ready to deliver");
             Restaurant Restaurant = new Restaurant();
             Restaurant.setWaitingForPickup(false);
 
